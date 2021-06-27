@@ -80,6 +80,7 @@ namespace cons
                     var line = reader.ReadLine();
                     var values = line.Split(';')[0];
                     var elements = values.Split(',');
+                    //Make a car obj for every row in CSV
                     arr.Add(new Car(elements[0], float.Parse(elements[1]), int.Parse(elements[2]), float.Parse(elements[3]), int.Parse(elements[4]), float.Parse(elements[5]), float.Parse(elements[6]), float.Parse(elements[7]), Convert.ToBoolean(int.Parse(elements[8])), Convert.ToBoolean(int.Parse(elements[9])), int.Parse(elements[10]), int.Parse(elements[11])));
                 }
             }
