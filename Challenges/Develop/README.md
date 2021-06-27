@@ -15,7 +15,7 @@ This challenge is to create a simple application with a very basic user interfac
 
 # Summary
 To improve the application:
--Implement functionality to batch upload cars can be done using another csv file
--The ability to cancel the editing of a row can be implemented
--Inputs validated to check for type for each car attribute using try and catch
+-Implement functionality to batch upload cars can be done using another csv file  
+-The ability to cancel the editing of a row can be implemented  
+-Inputs validated to check for type for each car attribute using try and catch  
 
